@@ -4,7 +4,7 @@ $dbh = DBI->connect( "dbi:ODBC:beemail") || die "Cannot connect:     $DBI::errst
 =pod
 ## Select based on user input
 print "\nDisplaying your received mails \n";
-print "Enter  from email address ";
+print "Enter to email address ";
 $fromemail = <>;
 chomp($fromemail);
 print "Enter  to  email address ";
